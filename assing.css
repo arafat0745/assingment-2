@@ -1,12 +1,21 @@
 body{
+    background-color: rgb(252, 248, 248);
+   
+    
+}
+.container{
     max-width: 1280px;
     margin: auto;
     
 }
+
+/* nav bar */
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 120px 0px 50px;
     
 
 }
@@ -28,3 +37,24 @@ li a{
 .color{
     color: brown;
 }
+
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.banner-text{
+    font-size: xx-large;
+    font-size: 37px;
+    margin: 200px 140px 0px 50px;
+}
+.bn-small{
+    font-size: 19px;
+    color: #8987A1;
+    margin: auto
+}
+.banner-pic{
+    margin: 160px 0px 0px 0px;
+}
+
